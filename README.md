@@ -1,5 +1,5 @@
 # 🧠 RAG-Based Conversational Assistant for Ready Tensor Publications  
-**AAIDC Project 1 | Built by [@yogapriya2899](https://github.com/yogapriya2899)**  
+**AAIDC Project 1**  
 **License:** Creative Commons Attribution–NonCommercial (CC BY–NC)
 
 ---
