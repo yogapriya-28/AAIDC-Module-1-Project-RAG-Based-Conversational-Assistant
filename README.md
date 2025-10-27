@@ -58,7 +58,7 @@ This implementation specifically focuses on **35 Ready Tensor publications** to 
 ---
 
 ## ⚙️ Core Components
-
+ 
 | Component           | Description                 |
 | ------------------- | --------------------------- |
 | **Framework**       | LangChain                   |
