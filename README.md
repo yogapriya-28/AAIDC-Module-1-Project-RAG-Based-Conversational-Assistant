@@ -34,7 +34,7 @@ This implementation specifically focuses on **35 Ready Tensor publications** to 
 
 ## 🧩 System Architecture  
 
-```plaintext
+
 📄 project_1_publications.json
         │
         ▼
@@ -100,5 +100,20 @@ Try these inside your assistant:
 
 1️⃣ Upload `project_1_publications.json`  
 2️⃣ Set your OpenAI API key:
-```python
+python code
 os.environ["OPENAI_API_KEY"] = "your-key"
+
+-------------------------------------------------------------------------------
+## ⚙️ Widget Safety Note
+
+⚠️ Colab-Specific Component
+The interactive chat widget (ipywidgets-based interface) is designed exclusively for Google Colab environments.
+If the notebook is opened in another environment (e.g., VS Code, Jupyter Lab, or GitHub Preview), the widget elements will not render — this is expected behavior.
+To prevent errors, the notebook includes an environment check:
+
+import sys
+if "google.colab" not in sys.modules:
+    print("⚠️ Chat widget interface only works in Google Colab.")
+
+
+This ensures clean execution and compatibility across all platforms while keeping the notebook fully reproducible.
