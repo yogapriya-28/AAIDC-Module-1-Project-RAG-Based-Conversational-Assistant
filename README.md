@@ -92,13 +92,7 @@ Try these inside your assistant:
 - “Who authored the Agentic AI course modules?”
 - “What are the goals of the AAIDC certification?”
 
-| Criterion                | Result                       |
-| ------------------------ | ---------------------------- |
-| Documentation & Clarity  | ✅ Excellent                  |
-| Code Modularity          | ✅ High                       |
-| End-to-End Functionality | ✅ Verified                   |
-| Reproducibility          | ✅ Provided                   |
-| Technical Alignment      | ✅ 80%+ of AAIDC criteria met |
+
 
 ---
 
